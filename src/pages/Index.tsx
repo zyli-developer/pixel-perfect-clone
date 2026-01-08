@@ -1,9 +1,9 @@
-import { SynnovatorApp } from "@/components/synnovator/SynnovatorApp";
+import { SynnovatorCard } from "@/components/SynnovatorCard";
 
 const Index = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 p-4">
-      <SynnovatorApp />
+      <SynnovatorCard />
     </div>
   );
 };
