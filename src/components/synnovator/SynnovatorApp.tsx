@@ -12,8 +12,13 @@ import { ProfileAvatar } from './ProfileAvatar';
 
 export const SynnovatorApp: React.FC = () => {
   return (
-    <main className="max-w-[328px] font-normal mx-auto">
-      <div className="flex w-full flex-col items-stretch pt-4 pb-2.5 px-[9px] rounded-[20px]">
+    <main 
+      className="w-[328px] h-[720px] font-normal mx-auto rounded-[20px]"
+      style={{
+        background: 'linear-gradient(359deg, #FFF 12.31%, #F7FEFF 79.66%, #47FFB2 112.32%)'
+      }}
+    >
+      <div className="flex w-full flex-col items-stretch pt-4 pb-2.5 px-[9px]">
         <Header />
         
         {/* Main action cards */}
